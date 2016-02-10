@@ -6,4 +6,5 @@ RUN curl -sS https://getcomposer.org/installer | php; \
     apt-get install -y git nodejs zlib1g-dev vim; \
     npm install -g bower gulp; \
     docker-php-ext-install mbstring; \
-    docker-php-ext-install zip;
+    docker-php-ext-install zip; \
+    a2enmod rewrite
