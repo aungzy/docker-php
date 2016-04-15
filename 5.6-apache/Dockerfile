@@ -7,4 +7,5 @@ RUN curl -sS https://getcomposer.org/installer | php; \
   npm install -g bower gulp; \
   docker-php-ext-install mbstring; \
   docker-php-ext-install zip; \
+  docker-php-ext-install mysql pdo_mysql pgsql pdo_pgsql; \
   a2enmod rewrite
